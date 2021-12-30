@@ -4,11 +4,13 @@
 ## Table Of Content
 
 ### 1- Microcontroller Abstraction Layer (MCAL)
-```1. Digital Input Output     (DIO)
+```
+1. Digital Input Output     (DIO)
 ```
 
 ### 2- Hardware Abstraction Layer (HAL)
-```1. Light Emitting Diode     (LED)
+```
+1. Light Emitting Diode     (LED)
 2. Switch                   (SW)
 3. 7 Segments Display       (SSD)
 4. Liquid Crystal Display   (LCD)
