@@ -2,7 +2,7 @@
 **This repository includes C drivers for AVR Atmega32 microcontroller peripherals and modules arranged in a layered Architecture.**
 
 
-### Components on the Shelf (COTS)
+## Components on the Shelf (COTS)
 
 #### 1- Microcontroller Abstraction Layer (MCAL)
 ```
