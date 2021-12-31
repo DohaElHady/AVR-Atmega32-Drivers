@@ -15,7 +15,7 @@
 2. Switch                   (SW)
 3. 7 Segments Display       (SSD)
 4. Liquid Crystal Display   (LCD)
-5. Dual DC Motor H-Bridge   (HB)
+5. Dual DC Motor H-Bridge   (HBridge)
 ```
 
 #### 3- Application Layer  (APP)
