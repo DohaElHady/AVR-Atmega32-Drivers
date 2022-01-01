@@ -27,11 +27,13 @@ void	LCD_voidInit8bit(void){
 	/*		Display ON/OFF Control Display ON, Cursor OFF		*/
 	LCD_voidSendCMD8bit(0x0C);
 	_delay_ms(1);
-	/*		Display Clear										*/
+	/*		Display Clear						*/
 	LCD_voidSendCMD8bit(0x01);
 	_delay_ms(2);
-	/*		Entry Mode Display  Cursor Increases				*/
+	/*		Entry Mode Display  Cursor Increases			*/
 	LCD_voidSendCMD8bit(0x06);
+	/*		Set Cursor to 0,0 pos. 					*/
+	LCD_voidGoToXY(0,0);
 }
 
 void	LCD_voidInit4bit(void){
