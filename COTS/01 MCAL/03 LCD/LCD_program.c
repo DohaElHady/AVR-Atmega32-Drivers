@@ -12,8 +12,14 @@
 #include		<util/delay.h>
 
 void	LCD_voidInit8bit(void){
-
-	/* 		After Power ON		*/
+	/*	Pins Init 					*/
+	/*	PB2 , 1 ,3 = OUTPUT 				*/
+	DIO_voidSetPinDirection(LCD_CONTROL_PORT,LCD_RS,OUTPUT);
+	DIO_voidSetPinDirection(LCD_CONTROL_PORT,LCD_RW,OUTPUT);
+	DIO_voidSetPinDirection(LCD_CONTROL_PORT,LCD_EN,OUTPUT);
+	/*	PORTA = OUTPUT					*/
+	DIO_voidSetPortDirection(LCD_DATA_PORT,OUTPUT);
+	/* 		After Power ON				*/
 	_delay_ms(35);
 	/*		Function Set 2 lines of Display and Font Size 5*7	*/
 	LCD_voidSendCMD8bit(0x38);
