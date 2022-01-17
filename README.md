@@ -9,6 +9,7 @@
 1. Digital Input Output     (DIO)
 2. Global Interrupt Enable  (GIE)
 3. External Interrupt       (EXTI)
+4. Timers                   (TMR)
 ```
 
 #### 2- Hardware Abstraction Layer (HAL)
