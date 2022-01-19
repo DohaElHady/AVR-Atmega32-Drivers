@@ -14,6 +14,7 @@
 6. PWM Generation using Timers    (TMR_PWM)
 7. Input Capture using Timers     (TMR_ICU)
 8. Input Capture using EXTIs      (IC_EXTI)
+9. Universal Synch/Asynch Tx/Rx   (USART)
 ```
 
 #### 2- Hardware Abstraction Layer (HAL)
