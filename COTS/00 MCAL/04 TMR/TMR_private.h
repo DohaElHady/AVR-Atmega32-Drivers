@@ -38,7 +38,7 @@
 #define     OCR1B_REG     *((volatile u16 *)0x48)
 #define     ICR1_REG      *((volatile u16 *)0x46)
 
-/*        TCCR1_REG Pins    */
+/*        TCCR1A_REG Pins    */
 #define       WGM10         0
 #define       WGM11         1
 #define       FOC1B         2
@@ -47,7 +47,7 @@
 #define       COM1B1        5
 #define       COM1A0        6
 #define       COM1A1        7
-
+/*        TCCR1B_REG Pins    */
 #define       CS10          0
 #define       CS11          1
 #define       CS12          2
