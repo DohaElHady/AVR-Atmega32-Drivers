@@ -9,15 +9,15 @@
 #define			NULL			(void*)0
 #endif
 
-static void (*TMR0_Overflow_ISR_CallBack) 			(void)=NULL;
+static void (*TMR0_Overflow_ISR_CallBack) 	(void)=NULL;
 static void (*TMR0_CompareMatch_ISR_CallBack) 	(void)=NULL;
 
-static void (*TMR1_InputCapture_ISR_CallBack)		(void)=NULL;
+static void (*TMR1_InputCapture_ISR_CallBack)	(void)=NULL;
 static void (*TMR1A_CompareMatch_ISR_CallBack)	(void)=NULL;
 static void (*TMR1B_CompareMatch_ISR_CallBack)	(void)=NULL;
-static void (*TMR1_Overflow_ISR_CallBack) 			(void)=NULL;
+static void (*TMR1_Overflow_ISR_CallBack) 	(void)=NULL;
 
-static void (*TMR2_Overflow_ISR_CallBack) 			(void)=NULL;
+static void (*TMR2_Overflow_ISR_CallBack) 	(void)=NULL;
 static void (*TMR2_CompareMatch_ISR_CallBack) 	(void)=NULL;
 
 /*****************************************************************************/
@@ -434,11 +434,11 @@ u16		TMR1_u16GetICR(void)
 }
 void 		TMR1_voidInputCaptureRisingEdge(void)
 {
-	SET_BIT(TCCR1_REG,ICES1);
+	SET_BIT(TCCR1B_REG,ICES1);
 }
 void 		TMR1_voidInputCaptureFallingEdge(void)
 {
-	CLR_BIT(TCCR1_REG,ICES1);
+	CLR_BIT(TCCR1B_REG,ICES1);
 }
 void    TMR1_voidSetInputCaptureISRFunc(void (*PointertoFunIC1) (void))
 {
