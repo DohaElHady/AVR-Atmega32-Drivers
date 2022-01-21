@@ -23,13 +23,15 @@
 5. Dual DC Motor H-Bridge   (HBridge)
 6. Servomotor Driver        (Servo)
 ```
-#### 3- Services Layer     
+
+#### 3- Services Layer         (SERVICES)
 ```
 1. Delay using 8-Bit Timers       (TMR_DELAY)
 2. PWM Generation using Timers    (TMR_PWM)
 3. Input Capture using Timers     (TMR_ICU)
 4. Input Capture using EXTIs      (IC_EXTI)
 ```
+
 #### 4- Application Layer  (APP)
 ```
 1. DIO_main.c
@@ -46,6 +48,6 @@
     8.2. SPI_Rx_main.c
 ```
 
-#### 4- Libraries  (LIB)
+#### 5- Libraries  (LIB)
 1. `Bit_Math.h`   : includes macro definitions for bit manipulation.
 2. `Std_Types.h`  : includes macro definitions for standard data types.
