@@ -1,0 +1,10 @@
+#ifndef SERVO_PRIVATE_H
+#define	SERVO_PRIVATE_H
+
+#define SERVO_TMRPWM_PORT			PORTD
+#define	SERVO_TMRPWM_PIN			PIN5
+
+#define SERVO_SWPWM_PORT			PORTD
+#define	SERVO_SWPWM_PIN				PIN7
+
+#endif
