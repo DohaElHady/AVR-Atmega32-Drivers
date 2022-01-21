@@ -10,11 +10,8 @@
 2. Global Interrupt Enable        (GIE)
 3. External Interrupt             (EXTI)
 4. Timers                         (TMR)
-5. Delay using 8-Bit Timers       (TMR_DELAY)
-6. PWM Generation using Timers    (TMR_PWM)
-7. Input Capture using Timers     (TMR_ICU)
-8. Input Capture using EXTIs      (IC_EXTI)
-9. Universal Synch/Asynch Tx/Rx   (USART)
+5. Universal Synch/Asynch Tx/Rx   (USART)
+6. Serial Peripheral Interface    (SPI)
 ```
 
 #### 2- Hardware Abstraction Layer (HAL)
@@ -26,8 +23,14 @@
 5. Dual DC Motor H-Bridge   (HBridge)
 6. Servomotor Driver        (Servo)
 ```
-
-#### 3- Application Layer  (APP)
+#### 3- Services Layer     
+```
+1. Delay using 8-Bit Timers       (TMR_DELAY)
+2. PWM Generation using Timers    (TMR_PWM)
+3. Input Capture using Timers     (TMR_ICU)
+4. Input Capture using EXTIs      (IC_EXTI)
+```
+#### 4- Application Layer  (APP)
 ```
 1. DIO_main.c
 2. EXTI_main.c
@@ -38,7 +41,11 @@
 7. USART
     7.1. USART_Tx_main.c
     7.2. USART_Rx_main.c
+8. SPI
+    8.1. SPI_Tx_main.c
+    8.2. SPI_Rx_main.c
 ```
+
 #### 4- Libraries  (LIB)
 1. `Bit_Math.h`   : includes macro definitions for bit manipulation.
 2. `Std_Types.h`  : includes macro definitions for standard data types.
