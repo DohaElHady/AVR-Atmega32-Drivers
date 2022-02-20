@@ -12,6 +12,7 @@
 4. Timers                         (TMR)
 5. Universal Synch/Asynch Tx/Rx   (USART)
 6. Serial Peripheral Interface    (SPI)
+7. Analog to Digital Converter    (ADC)
 ```
 
 #### 2- Hardware Abstraction Layer (HAL)
